@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jhoan Escorcia | Portafolio</title>
+    <link rel="icon" href="img/IconoPestañaPag.png" /> <!-- colocar icono -->
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles/mystyles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- pre-load de imagenes -->
+    <!-- has un pre-load de las imagenes mas pesadas -->
+    <link rel="preload" href="./img/autorenting.jpg" as="image">
+    <link rel="preload" href="./img/brigada.jpg" as="image">
+    <link rel="preload" href="./img/itquentame.jpeg" as="image">
+</head>
+
+<body class="wellcome w--opacity">
+
+    <!-- barra de anvegación -->
+    <nav class="w-100 position-fixed">
+        <div class="contenedor__principal nav white-color d-flex justify-content-between px-4 py-3 m-auto">
+            <div class="nav__name">
+                <span class="fs-6 fw-bold text-white">Jhoan <span class="text-warning">Escorcia</span></span>
+            </div>
+
+            <div class="nav_icon">
+                <i class="nav_enlace_icon fs-4 d-lg-none fa-solid fa-bars text-white"></i>
+            </div>
+
+            <div class="nav__enlaces d-flex flex-column flex-lg-row text-light">
+                <a class="nav__enlace text-light text-decoration-none me-md-5" href="#inicio">Inicio</a>
+                <a class="nav__enlace text-light text-decoration-none me-md-5" href="#sobremi">Acerca de mi</a>
+                <a class="nav__enlace text-light text-decoration-none me-md-5" href="#habilidades">Habilidades</a>
+                <a class="nav__enlace text-light text-decoration-none me-md-5" href="#curriculum">Curriculum</a>
+                <a class="nav__enlace text-light text-decoration-none me-md-5" href="#experiencia">Experiencia</a>
+                
+            </div>
+        </div>
+    </nav>
+
+    <!-- vista principal (inicio) -->
+    <section id="inicio" class="section container-fluid bg-dark d-block">
+
+        <div class="section__flex d-flex flex-column justify-content-center align-items-center contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <span class="text-warning d-block text-center fw-bold fs-1">Jhoan Escorcia</span>
+            <span class="text-white d-block text-center fw-bold fs-5">Ingeniero De Software</span>
+            
+
+            <div class="section__links pt-4 w-100 d-flex justify-content-center">
+                <a class="me-3 text-decoration-none text-white fs-1" href="https://www.facebook.com/profile.php?id=100082148659862" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-facebook icon_social"></i>
+                </a>
+                <a class="text-decoration-none text-white fs-1" href="https://wa.me/message/VFKSAZIFREFWK1" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp icon_social"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- acerca de -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Acerca De Mi</h2>
+            <p><span>Hola, soy Jhoan Escoricia.</span> Ingeniero  de sistemas, Con Conocimientos en C# - HTML - SQL.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            18-12-1998
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            (+57) 311 6143145
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            jhoanescorcia@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Fundacion, Magdalena - Colombia
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-computer"></i>
+                            <span>PROGRAMAR</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="img/PDF/Hoja de vida_JhoanEscorcia.pdf" download="Hoja_de_vida_JhoanEscorcia.pdf">
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </a>
+            </button>
+        </div>
+    </section>
+
+    <!-- habilidades -->
+    <section id="habilidades" class="habilidades container-fluid">
+        <div class="contenedor__principal m-auto text-white px-3">
+            <div class="row">
+                <div class="d-lg-flex justify-content-lg-center align-items-lg-center">
+                    <div class="col-lg">
+                        <h2 class="text-center text-lg-start fw-bold my-5">Habilidades</h2>
+
+                        <p class="text-center text-lg-start">
+                            Como ingeniero de sistemas, me destaco por mi conocimiento en las siguientes areas. <br> <br>JavaScript, HTML, CSS, C#, C++, Visual Studio y Office, lo que me permite desarrollar soluciones innovadoras y eficientes. <br> <br>Además, mi habilidad para comunicarme efectivamente, mi creatividad para encontrar soluciones, mi dedicación al trabajo y mi capacidad para gestionar proyectos con éxito son atributos que me permiten destacarme en el entorno laboral y contribuir de manera significativa a los equipos y proyectos en los que participo.
+                        </p>
+
+                        <a class="proyectos btn btn-warning d-block m-auto my-lg-5 mx-lg-0"
+                            href="#experiencia">Proyectos</a>
+                    </div>
+                    <div class="col-lg my-5">
+                        
+                        <div class="d-flex justify-content-center px-4">
+                            
+                            <ul class="me-5">
+                                <h2>Conocimientos</h2>
+                                <li>JavaScript</li>
+                                <li>HTML & CSS</li>
+                                <li>C #</li>
+                                <li>C + +</li>
+                                <br>
+                                <br>
+                                <h2>Competencias</h2>
+                                <li>Comunicacion</li>
+                                <li>creatividad</li>
+                                <li>Gestion de proyecto</li>
+                                <li>Dedicacion</li>
+                            </ul>
+
+                            <ul>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curriculum -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingenieria de sistemas</h4>
+                        <span class="casa">Universidad Nacional Abierta y a Distancia</span>
+                        <span class="fecha">2019 - 2024</span>
+                        <p>Actualmente 10º Con desempeños notables</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                
+                <div class="col derecha">
+                    <h3>Experiencia de trabajoo</h3>
+                    <br>
+                    <div class="item der">
+                        <h4>Base de datos</h4>
+                        <span class="casa">Consorcio Jem</span>
+                        <span class="fecha">2023 - 2024</span>
+                        <p>Encargado en la programacion de Software de almacenamiento de datos</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- experiencia -->
+    <section id="experiencia" class="experiencia container-fluid mb-5">
+        <div class="contenedor__principal m-auto text-white px-3">
+
+            <div class="row">
+                <div class="col">
+                    <h2 class=" text-center fw-bold my-5">Experiencia</h2>
+                </div>
+            </div>
+
+            <div class="row row-cols-md-2 row-cols-xl-3">
+                <div class="col-md p-2">
+                    <article class="article__experiencia">
+                        <div class="imagen_referencia">
+                            <img class="w-100 rounded-2" src="img/iconocshar.png" alt="experiencia ITQuentame & Brigada">
+                        </div>
+
+                        <div class="spinner">
+                            <div class="double-bounce1"></div>
+                            <div class="double-bounce2"></div>
+                        </div>
+
+                        <span class="text-center fw-bold my-5"><h2>Software De Facturacion.</h2></span>
+                        
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#brigada"
+                            class="btn btn-warning">Ver más</button>
+                    </article>
+                </div>
+
+                <div class="col-md p-2">
+                    <article class="article__experiencia">
+                        <div class="imagen_referencia">
+                            <img class="w-100 rounded-2" src="img/iconolauncher.png" alt="experiencia auto renting hca">
+                        </div>
+
+                        <div class="spinner">
+                            <div class="double-bounce1"></div>
+                            <div class="double-bounce2"></div>
+                        </div>
+
+                        <span class="text-center fw-bold my-5"><h2>Launcher - Updater.</h2></span>
+                        
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#autorenting"
+                            class="btn btn-warning">Ver más</button>
+                    </article>
+                </div>
+
+                <!-- EN CASO DE QUERE AGREGAR OTRA EXPERIENCIA -->
+                <!-- <div class="col-md p-2">
+                    <article class="article__experiencia">
+                        <div class="imagen_referencia">
+                            <img class="w-100 rounded-2" src="#" alt="texto alternativo">
+                        </div>
+
+                        <div class="spinner">
+                            <div class="double-bounce1"></div>
+                            <div class="double-bounce2"></div>
+                        </div>
+
+                        <span class="m-0 fw-bold">Lorem ipsum dolor sit amet.</span>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#idexperiencia"
+                            class="btn btn-warning">Ver más</button>
+                    </article>
+                </div> -->
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- svg waves -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#1f1f1f" fill-opacity="1"
+            d="M0,96L120,122.7C240,149,480,203,720,218.7C960,235,1200,213,1320,202.7L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+        </path>
+    </svg>
+
+
+    <!-- footer -->
+    <footer class="text-white footer container-fluid" id="contacto">
+        <div class="contenedor__principal m-auto px-3">
+            <div class="row">
+                <div class="d-flex flex-column flex-md-row justify-content-sm-between align-items-sm-center">
+                    <div class="footer__name pb-5">
+                        <span class="d-block fs-4 fw-bold text-center text-md-start">Jhoan <span
+                                class="text-warning">Escorcia</span></span>
+                        <span class="text-white d-block text-center text-md-start fs-6">Ingeniero de sistemas</span>
+                    </div>
+
+                    <div class="pb-5">
+                        <span class="d-block text-center text-md-start">
+                            <i class="fa-solid fa-phone me-2"></i>
+                            (+57) 311 614 3145</span>
+                        <span class="d-block text-center text-md-start">
+                            <i class="fa-solid fa-location-pin me-2"></i>
+                            example@gmail.com</span>
+                        <span class="d-block text-center text-md-start">
+                            <i class="fa-solid fa-envelope me-2"></i>
+                            jhoanescorcia@gmail.com</span>
+                    </div>
+
+                    <div class="text-center pb-5">
+                        <a class="me-3 text-decoration-none text-white" href="https://github.com/Raikusii" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fa-brands fa-github fs-3"></i>
+                        </a>
+                        <a class="me-3 text-decoration-none text-white" href="https://wa.me/message/VFKSAZIFREFWK1" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fa-brands fa-whatsapp fs-3"></i>
+                        </a>
+                        <a class="me-3 text-decoration-none text-white" href="https://www.facebook.com/profile.php?id=100082148659862" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fa-brands fa-facebook fs-3"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+    </footer>
+
+
+    <!-- Ventanas modal -->
+    <!-- ITQ modal-->
+    <div class="modal fade" id="brigada" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content modal__content--border">
+                <div class="modal-header modal__header--bg text-white">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Software De Facturacion.</h1>
+                </div>
+                <div class="modal-body modal__body--bg">
+                    <h6 class="d-block fw-bold">Funcionalidad:</h6>
+                    <br>
+
+                    <p>
+                        El software de facturación proporciona las siguientes funcionalidades:
+                    </p>
+                    <p>
+                        <strong>Login - Registro:</strong>  Permite a los usuarios registrarse e iniciar sesión en el sistema. Presenta dos botones distintos para cada acción, mostrando una ventana correspondiente según la opción seleccionada.
+                    </p>
+                    <p>
+                        <strong>Ingresar Factura:</strong>   Ofrece una ventana para ingresar nueva información de factura, con campos correspondientes y botones para agregar imágenes, eliminar imágenes adjuntas y guardar la factura en la base de datos.
+                    </p>
+                    <p>
+                        <strong>Buscar Factura:</strong>  Presenta una ventana con una tabla que permite buscar facturas por nombre, número o fecha. Además, incluye botones para generar un reporte en Excel con la información de la tabla.
+                    </p>
+
+
+                
+
+                    <div class="custom__carousel rounded-4">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade w-100 h-100">
+                            <div class="carousel-inner h-100">
+                                <div class="carousel-item active h-100">
+                                    <img src="./img/login.jpg" class="d-block h-100 m-auto" alt="interfaz de log in">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/Registro.jpg" class="d-block h-100 m-auto " alt="interfaz de registro">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/nuevafactura.jpg" class="d-block h-100 m-auto" alt="interfaz de inicio">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/Buscarfactura.jpg" class="d-block h-100 m-auto" alt="barra de anvegación">
+                                </div>
+                                
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <br>
+                    <span class="d-block fw-bold">Tecnologías utilizadas:</span>
+                    <ul>
+                        <li>El software está desarrollado utilizando la tecnología  <strong>C #</strong>.</li>
+                        
+                    </ul>
+
+                    <br>
+                    <span class="d-block fw-bold">Tareas realizadas:</span>
+                    <ul>
+                        <span>Las tareas realizadas en el desarrollo del software incluyen:</span><br>
+                        <li>Implementación del sistema de registro e inicio de sesión.
+                        </li>
+                        <li>
+                            Diseño e implementación de la interfaz de usuario para ingresar nueva factura.
+                        </li>
+                        <li>
+                            Desarrollo de la funcionalidad para buscar y filtrar facturas en la base de datos.
+                        </li>
+                        <li>
+                            Integración de la capacidad para generar reportes en Excel.
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="modal-footer modal__footer--bg">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
+                        Cerrar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- AUTO RENTING HCA modal-->
+    <div class="modal fade" id="autorenting" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content modal__content--border">
+                <div class="modal-header modal__header--bg text-white">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Launcher - Updater</h1>
+                </div>
+                <div class="modal-body modal__body--bg">
+                    <h6 class="d-block fw-bold">Funcionalidad:</h6>
+                    <br>
+
+                    <p>
+                        El  <strong>software Launcher - Updater</strong> proporciona una solución integral para la gestión de versiones y actualizaciones de juegos. Permite a los usuarios descargar e instalar la última versión del juego de manera eficiente. Además, ofrece la funcionalidad de lanzamiento del juego una vez que se ha verificado que los archivos están actualizados.
+                    </p>
+
+                    <div class="custom__carousel rounded-4">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade w-100 h-100">
+                            <div class="carousel-inner h-100">
+                                <div class="carousel-item active h-100">
+                                    <img src="./img/launcherDescargando.png" class="d-block h-100 m-auto" alt="interfaz de log in">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/launcherPlay.png" class="d-block h-100 m-auto " alt="interfaz de registro">
+                                </div>
+                                
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    
+
+                    <br>
+                    <span class="d-block fw-bold">Tecnologías utilizadas:</span>
+                    <ul>
+                        <li>Desarrollado en C#.</li>
+                        
+                    </ul>
+
+                    <br>
+                    <span class="d-block fw-bold">Tareas realizadas:</span>
+                    <br>
+                    <ul>
+                        <li>
+                            Desarrollo de un Launcher - Updater capaz de verificar la versión actual del juego.
+                        </li>
+                        <li>
+                            Implementación de la funcionalidad de descarga e instalación automática de actualizaciones desde un servidor remoto.
+                        </li>
+                        <li>
+                            Creación de una interfaz de usuario intuitiva que permite a los usuarios iniciar el juego con un solo clic una vez que las actualizaciones se han completado satisfactoriamente.
+                        </li>
+                    
+                    </ul>
+                </div>
+                <div class="modal-footer modal__footer--bg">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
+                        Cerrar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- EN CASO DE QUERE AGREGAR OTRA EXPERIENCIA -->
+    <!-- <div class="modal fade" id="idexperiencia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content modal__content--border">
+                <div class="modal-header modal__header--bg text-white">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Lorem ipsum dolor sit amet.</h1>
+                </div>
+                <div class="modal-body modal__body--bg">
+
+                    <span>CONTENIDO AQUÍ</span>
+
+                </div>
+                <div class="modal-footer modal__footer--bg">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
+                        Cerrar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <!-- mis scripts -->
+    <script defer src="js/index.js"></script>
+</body>
+
+</html>
