@@ -255,7 +255,7 @@
 
                         <span class="text-center fw-bold my-5"><h2>Software De Facturacion.</h2></span>
                         
-                        <button type="button" data-bs-toggle="modal" data-bs-target="#brigada"
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#SftFactura"
                             class="btn btn-warning">Ver más</button>
                     </article>
                 </div>
@@ -273,7 +273,25 @@
 
                         <span class="text-center fw-bold my-5"><h2>Launcher - Updater.</h2></span>
                         
-                        <button type="button" data-bs-toggle="modal" data-bs-target="#autorenting"
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#SftLauncher"
+                            class="btn btn-warning">Ver más</button>
+                    </article>
+                </div>
+
+                <div class="col-md p-2">
+                    <article class="article__experiencia">
+                        <div class="imagen_referencia">
+                            <img class="w-100 rounded-2" src="img/farmaciaLogo.png" alt="experiencia auto renting hca">
+                        </div>
+
+                        <div class="spinner">
+                            <div class="double-bounce1"></div>
+                            <div class="double-bounce2"></div>
+                        </div>
+
+                        <span class="text-center fw-bold my-5"><h2>Software Farmacia.</h2></span>
+                        
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#SftFarmacia"
                             class="btn btn-warning">Ver más</button>
                     </article>
                 </div>
@@ -355,7 +373,7 @@
 
     <!-- Ventanas modal -->
     <!-- ITQ modal-->
-    <div class="modal fade" id="brigada" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="SftFactura" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-scrollable">
             <div class="modal-content modal__content--border">
                 <div class="modal-header modal__header--bg text-white">
@@ -445,9 +463,11 @@
         </div>
     </div>
 
+   
+
 
     <!-- AUTO RENTING HCA modal-->
-    <div class="modal fade" id="autorenting" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="SftLauncher" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-scrollable">
             <div class="modal-content modal__content--border">
                 <div class="modal-header modal__header--bg text-white">
@@ -462,7 +482,7 @@
                     </p>
 
                     <div class="custom__carousel rounded-4">
-                        <div id="carouselExampleFade" class="carousel slide carousel-fade w-100 h-100">
+                        <div id="carouselExampleFade2" class="carousel slide carousel-fade w-100 h-100">
                             <div class="carousel-inner h-100">
                                 <div class="carousel-item active h-100">
                                     <img src="./img/launcherDescargando.png" class="d-block h-100 m-auto" alt="interfaz de log in">
@@ -472,12 +492,12 @@
                                 </div>
                                 
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade2"
                                 data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade2"
                                 data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
@@ -506,6 +526,117 @@
                         </li>
                         <li>
                             Creación de una interfaz de usuario intuitiva que permite a los usuarios iniciar el juego con un solo clic una vez que las actualizaciones se han completado satisfactoriamente.
+                        </li>
+                    
+                    </ul>
+                </div>
+                <div class="modal-footer modal__footer--bg">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
+                        Cerrar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="SftFarmacia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content modal__content--border">
+                <div class="modal-header modal__header--bg text-white">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Software Farmacia</h1>
+                </div>
+                <div class="modal-body modal__body--bg">
+                    <h6 class="d-block fw-bold">Funcionalidad:</h6>
+                    <br>
+
+                    <p>
+                        El  <strong>software Farmacia</strong> ofrece una gama de funciones clave para la gestión eficiente de una farmacia. Permite el registro de usuarios con diferentes roles, ya sea como usuarios normales o administradores, y la funcionalidad de inicio de sesión correspondiente. Facilita la gestión del inventario de productos, incluyendo la capacidad de agregar nuevos productos al inventario y una interfaz de usuario intuitiva para visualizar los productos disponibles. Además, proporciona una función para registrar y administrar diferentes tipos de laboratorios asociados con los productos.
+                    </p>
+
+                    <div class="custom__carousel rounded-4">
+                        <div id="carouselExampleFade3" class="carousel slide carousel-fade w-100 h-100">
+                            <div class="carousel-inner h-100">
+                                <div class="carousel-item active h-100">
+                                    <img src="./img/SftFarmacia/FarmaciaLogin.png" class="d-block h-100 m-auto" alt="interfaz de log in">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/SftFarmacia/FarmaciaInicio.png" class="d-block h-100 m-auto " alt="interfaz de registro">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/SftFarmacia/FarmaciaUsuarios.png" class="d-block h-100 m-auto" alt="interfaz de inicio">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/SftFarmacia/FarmaciaConfSoftware.png" class="d-block h-100 m-auto" alt="barra de anvegación">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/SftFarmacia/FarmaciaPresentacion.png" class="d-block h-100 m-auto" alt="barra de anvegación">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/SftFarmacia/FarmaciaLaboratorio.png" class="d-block h-100 m-auto" alt="barra de anvegación">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/SftFarmacia/FarmaciaProductos.png" class="d-block h-100 m-auto" alt="barra de anvegación">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/SftFarmacia/FarmaciaClientes.png" class="d-block h-100 m-auto" alt="barra de anvegación">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/SftFarmacia/FarmaciaNewVenta.png" class="d-block h-100 m-auto" alt="barra de anvegación">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/SftFarmacia/FarmaciaHistoriaVentas.png" class="d-block h-100 m-auto" alt="barra de anvegación">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/SftFarmacia/FarmaciaTipos.png" class="d-block h-100 m-auto" alt="barra de anvegación">
+                                </div>
+                                
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade3"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade3"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    
+
+                    <br>
+                    <span class="d-block fw-bold">Tecnologías utilizadas:</span>
+                    <ul>
+                        <li>Desarrollado en php - JavaScript - html</li>
+                        
+                    </ul>
+
+                    <br>
+                    <span class="d-block fw-bold">Tareas realizadas:</span>
+                    <br>
+                    <ul>
+                        <li>
+                            Diseño e implementación de un sistema de registro y autenticación de usuarios.
+                        </li>
+                        <li>
+                            Desarrollo de un sistema de gestión de inventario para administrar productos farmacéuticos.
+                        </li>
+                        <li>
+                            Implementación de funciones para agregar nuevos productos al inventario.
+                        </li>
+                        <li>
+                            Creación de una interfaz de usuario para visualizar productos y tipos de laboratorios.
+                        </li>
+                        <li>
+                            Desarrollo de funciones de venta para realizar transacciones comerciales.
+                        </li>
+                        <li>
+                            Implementación de un sistema de historial de ventas para rastrear transacciones anteriores.
+                        </li>
+                        <li>
+                            Diseño y desarrollo de una tabla de información para mostrar datos relevantes, como productos vencidos, número de usuarios, clientes y ventas.
                         </li>
                     
                     </ul>
